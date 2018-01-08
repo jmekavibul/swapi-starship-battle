@@ -36,9 +36,8 @@ renderStarships = (data) => {
   let shipNames = starships1.name
   let shipNames2 = starships2.name
   
-  if(num1 == num2){ 
-    playGame()
-  }
+  playGame()
+  
 
   
   shipsDisplay.innerText = shipNames + " VS. " + shipNames2 + "\n "
